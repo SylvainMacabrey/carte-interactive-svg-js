@@ -1,0 +1,32 @@
+#map_image {
+    width: 60%;
+    float: left;
+
+}
+
+#map_image path {
+    fill: rgb(40, 125, 186);
+    stroke: white;
+    stroke-width: 1px;
+    transition: fill 0.3s;
+}
+
+#map_image path.is-active {
+    fill: rgb(27, 17, 222);
+}
+
+#map_list {
+    width: 40%;
+    float: right;
+}
+
+#map_list a {
+    color: inherit;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+#map_list li.is-active {
+    color: rgb(27, 17, 222);
+    font-weight: bold;
+}
